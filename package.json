@@ -1,0 +1,27 @@
+{
+  "name": "playlistcarnot",
+  "version": "1.0.0",
+  "description": "Playlist da Carnot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SepticoL/playlistCarnot.git"
+  },
+  "author": "Anderson Lacerda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SepticoL/playlistCarnot/issues"
+  },
+  "homepage": "https://github.com/SepticoL/playlistCarnot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.0",
+    "nodemon": "^2.0.19"
+  }
+}
